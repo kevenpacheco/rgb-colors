@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Cores</title>
+</head>
+<body>
+    <div class="principal">
+        <header>
+            <h1>Escolha a sua cor!</h1>
+        </header>
+        <main>
+            <div class="colorBox"></div>
+            <div class="inputs">
+                <div class="dados">
+                    <input type="range" name="rangeR" id="rangeR" max="255" min="0" value="0">
+                    <p class="redText">(R) Vermelho</p>
+                    <input type="text" name="colorValueR" id="colorValueR" disabled=true>
+                </div>
+                <div class="dados">
+                    <input type="range" name="rangeG" id="rangeG" max="255" min="0" value="0">
+                    <p class="greenText">(G) Verde</p>
+                    <input type="text" name="colorValueG" id="colorValueG" disabled=true>
+                </div>
+                <div class="dados">
+                    <input type="range" name="rangeB" id="rangeB" max="255" min="0" value="0">
+                    <p class="blueText">(B) Azul</p>
+                    <input type="text" name="colorValueB" id="colorValueB" disabled=true>
+                </div>
+            </div>
+        </main>
+        <footer>&copy; Keven Pacheco</footer>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
